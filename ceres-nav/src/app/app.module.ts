@@ -6,6 +6,7 @@ import {AppComponent} from './app.component';
 import {NavBrandComponent} from './nav-brand/nav-brand.component';
 import {NavTogglerComponent} from './nav-toggler/nav-toggler.component';
 import {NavCollapseComponent} from './nav-collapse/nav-collapse.component';
+import { NavCollapseSearchComponent } from './nav-collapse/nav-collapse-search/nav-collapse-search.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import {NavCollapseComponent} from './nav-collapse/nav-collapse.component';
     AppComponent,
     NavBrandComponent,
     NavTogglerComponent,
-    NavCollapseComponent
+    NavCollapseComponent,
+    NavCollapseSearchComponent
   ],
   imports: [
     BrowserModule

@@ -6,13 +6,13 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./nav-collapse.component.css']
 })
 export class NavCollapseComponent implements OnInit {
-  private _itemList: Array<Object>;
+  private readonly _itemList: Object[];
 
   constructor() {
     this._itemList = ['hi', 'hello', 'you'];
   }
 
-  get itemList(): Array {
+  get itemList(): Object[] {
     return this._itemList;
   }
 
