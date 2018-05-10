@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavBrandComponent } from './nav-brand/nav-brand.component';
+import { NavTogglerComponent } from './nav-toggler/nav-toggler.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBrandComponent
+    NavBrandComponent,
+    NavTogglerComponent
   ],
   imports: [
     BrowserModule
