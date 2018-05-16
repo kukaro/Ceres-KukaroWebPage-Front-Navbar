@@ -8,6 +8,8 @@ import {NavBrandComponent} from './nav/nav-brand/nav-brand.component';
 import {NavTogglerComponent} from './nav/nav-toggler/nav-toggler.component';
 import {NavCollapseComponent} from './nav/nav-collapse/nav-collapse.component';
 import {NavCollapseSearchComponent} from './nav/nav-collapse/nav-collapse-search/nav-collapse-search.component';
+import { ArticleComponent } from './article/article.component';
+import { SigninComponent } from './article/signin/signin.component';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import {NavCollapseSearchComponent} from './nav/nav-collapse/nav-collapse-search
     NavTogglerComponent,
     NavCollapseComponent,
     NavCollapseSearchComponent,
+    ArticleComponent,
+    SigninComponent,
   ],
   imports: [
     BrowserModule,
