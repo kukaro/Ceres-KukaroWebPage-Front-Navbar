@@ -17,7 +17,7 @@ import {NavCollapseSearchComponent} from './nav/nav-collapse/nav-collapse-search
     NavBrandComponent,
     NavTogglerComponent,
     NavCollapseComponent,
-    NavCollapseSearchComponent
+    NavCollapseSearchComponent,
   ],
   imports: [
     BrowserModule,
