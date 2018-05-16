@@ -3,15 +3,17 @@ import {NgModule} from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
 
 import {AppComponent} from './app.component';
-import {NavBrandComponent} from './nav-brand/nav-brand.component';
-import {NavTogglerComponent} from './nav-toggler/nav-toggler.component';
-import {NavCollapseComponent} from './nav-collapse/nav-collapse.component';
-import {NavCollapseSearchComponent} from './nav-collapse/nav-collapse-search/nav-collapse-search.component';
+import {NavComponent} from './nav/nav.component';
+import {NavBrandComponent} from './nav/nav-brand/nav-brand.component';
+import {NavTogglerComponent} from './nav/nav-toggler/nav-toggler.component';
+import {NavCollapseComponent} from './nav/nav-collapse/nav-collapse.component';
+import {NavCollapseSearchComponent} from './nav/nav-collapse/nav-collapse-search/nav-collapse-search.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    NavComponent,
     NavBrandComponent,
     NavTogglerComponent,
     NavCollapseComponent,
